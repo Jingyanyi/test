@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite>
+  <testcase name="test_step_1" classname="sample.junit." time="30.019"/>
+  <testcase name="testSum_2" classname="Jenkins-demo-tc" time="0.001">
+    <failure message="expected:&lt;7&gt; but was:&lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<6>
+	at Jenkins-demo-tc.testSum_2(CalculatorTestSuccessful.java:48)
+]]></failure>
+    <system-out><![CDATA[......Waiting.... .. at 2019/06/11 14:51:37
+This is executed before each Test
+----- START OF Verify function testSum_2 in CalculatorTestSuccessful class -------------
+This is executed after each Test
+......END --- Waiting.... .. at 2019/06/11 14:51:37
+]]></system-out>
+  </testcase>
+  <testcase name="test_step_2" classname="Jenkins-demo-tc" time="0.001">
+    <failure message="expected:&lt;7&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<11>
+	at Jenkins-demo-tc.testSum_1(CalculatorTestSuccessful.java:39)
+]]></failure>
+    <system-out><![CDATA[......Waiting.... .. at 2019/06/11 14:51:37
+This is executed before each Test
+----- START OF Verify function testSum_1 in CalculatorTestSuccessful class -------------
+This is executed after each Test
+......END --- Waiting.... .. at 2019/06/11 14:51:37
+]]></system-out>
+  </testcase>
+  <testcase name="test_step_3" classname="Jenkins-demo-tc" time="0.001">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at Jenkins-demo-tc.testEqual(CalculatorTestSuccessful.java:121)
+</failure>
+    <system-out><![CDATA[......Waiting.... .. at 2019/06/11 14:51:37
+This is executed before each Test
+This is executed after each Test
+......END --- Waiting.... .. at 2019/06/11 14:51:37
+]]></system-out>
+  </testcase>
+  <testcase name="test_step_4" classname="Jenkins-demo-tc" time="0.001">
+    <failure message="expected:&lt;7&gt; but was:&lt;13&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<13>
+	at Jenkins-demo-tc.testSum_3(CalculatorTestSuccessful.java:57)
+]]></failure>
+    <system-out><![CDATA[......Waiting.... .. at 2019/06/11 14:51:37
+This is executed before each Test
+----- START OF Verify function testSum_3 in CalculatorTestSuccessful class -------------
+This is executed after each Test
+......END --- Waiting.... .. at 2019/06/11 14:51:37
+]]></system-out>
+  </testcase>
+  <testcase name="test_step_5" classname="Jenkins-demo-tc" time="0.001">
+    <failure message="expected:&lt;7&gt; but was:&lt;4&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<4>
+	at Jenkins-demo-tc.testSum_4(CalculatorTestSuccessful.java:66)
+]]></failure>
+    <system-out><![CDATA[......Waiting.... .. at 2019/06/11 14:51:37
+This is executed before each Test
+----- START OF Verify function testSum_4 in CalculatorTestSuccessful class -------------
+This is executed after each Test
+......END --- Waiting.... .. at 2019/06/11 14:51:37
+]]></system-out>
+  </testcase>
+  <testcase name="testSum_5" classname="Jenkins-demo-tc" time="0">
+    <failure message="expected:&lt;7&gt; but was:&lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<6>
+	at Jenkins-demo-tc.testSum_5(CalculatorTestSuccessful.java:75)
+]]></failure>
+    <system-out><![CDATA[......Waiting.... .. at 2019/06/11 14:51:37
+This is executed before each Test
+----- START OF Verify function testSum_5 in CalculatorTestSuccessful class -------------
+This is executed after each Test
+......END --- Waiting.... .. at 2019/06/11 14:51:37
+]]></system-out>
+  </testcase>
+  <testcase name="testSum_6" classname="Jenkins-demo-tc" time="0">
+    <failure message="expected:&lt;7&gt; but was:&lt;13&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<13>
+	at Jenkins-demo-tc.testSum_6(CalculatorTestSuccessful.java:84)
+]]></failure>
+    <system-out><![CDATA[......Waiting.... .. at 2019/06/11 14:51:37
+This is executed before each Test
+----- START OF Verify function testSum_6 in CalculatorTestSuccessful class -------------
+This is executed after each Test
+......END --- Waiting.... .. at 2019/06/11 14:51:37
+]]></system-out>
+  </testcase>
+  <testcase name="testSum_7" classname="Jenkins-demo-tc" time="0.001">
+    <failure message="expected:&lt;7&gt; but was:&lt;4&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<4>
+	at Jenkins-demo-tc.testSum_7(CalculatorTestSuccessful.java:93)
+]]></failure>
+    <system-out><![CDATA[......Waiting.... .. at 2019/06/11 14:51:37
+This is executed before each Test
+----- START OF Verify function testSum_7 in CalculatorTestSuccessful class -------------
+This is executed after each Test
+......END --- Waiting.... .. at 2019/06/11 14:51:37
+]]></system-out>
+  </testcase>
+  <testcase name="testSubstraction" classname="Jenkins-demo-tc" time="0.001">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at Jenkins-demo-tc.testSubstraction(CalculatorTestSuccessful.java:128)
+</failure>
+    <system-out><![CDATA[......Waiting.... .. at 2019/06/11 14:51:37
+This is executed before each Test
+This is executed after each Test
+......END --- Waiting.... .. at 2019/06/11 14:51:37
+]]></system-out>
+  </testcase>
+  <testcase name="testDivisionException" classname="Jenkins-demo-tc" time="0.001"/>
+  <testcase name="testDivison" classname="Jenkins-demo-tc" time="0"/>
+</testsuite>
