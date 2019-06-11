@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite>
-  <testcase name="test_step_1" classname="sample.junit." time="30.019"/>
+  <testcase name="test_step_1" classname="Jenkins-demo-tc" time="30.019"/>
   <testcase name="testSum_2" classname="Jenkins-demo-tc" time="0.001">
     <failure message="expected:&lt;7&gt; but was:&lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<6>
 	at Jenkins-demo-tc.testSum_2(CalculatorTestSuccessful.java:48)
