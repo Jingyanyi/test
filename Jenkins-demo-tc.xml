@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite>
+  <properties>
+      <property name="IBID" value="THIS IS A TEST IBID"/>
+      <property name="Unified Build ID" value="THIS IS A TEST Unified Build ID"/>
+      <property name="Array Name" value="THIS IS A TEST Array Name"/>
+      <property name="Log URL" value="https://fake.logurl.com"/>
+  </properties>
   <testcase name="test_step_1" classname="Jenkins-demo-tc" time="30.019"/>
   <testcase name="testSum_2" classname="Jenkins-demo-tc" time="0.001">
     <failure message="expected:&lt;7&gt; but was:&lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<6>
